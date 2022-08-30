@@ -1,0 +1,266 @@
+.conteudo-inicial{
+    display: flex;
+    width: 100%;
+    height: 750px;
+    background-color: rgba(69, 182, 156, 0.034);
+}
+
+.texto-inicial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.texto-inicial h2{
+    font-size: 35px;
+    max-width: 500px;
+    color: #6E9887;
+    font-weight: 100;
+}
+
+.texto-inicial a{
+    text-decoration: none;
+    text-align: center;
+    color: #FFF;
+    background-color: #d4a198;
+    padding: 8px;
+    border-radius: 20px;
+    width: 180px;
+    margin-top: 20px;
+}
+
+.texto-inicial p{
+    font-size: 15px;
+    max-width: 500px;
+    margin-top: 3px;
+}
+
+.img-inicial{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.icon{
+    background-color: #d4a198;
+    margin-left: 10px;
+    border-radius: 20px;
+    padding: 5px;
+    font-size: 30px;
+    color: #FFF;
+}
+
+.img-inicial img{
+    width: 500px;
+    height: 500px;
+}
+
+.container-sobre{
+    display: flex;
+    width: 100%;
+    height: 800px;
+}
+
+.sobre-col1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+}
+
+.sobre-col1 h2{
+    font-size: 40px;
+    color: #6E9887;
+    margin-top: 35px;
+}
+
+.sobre-col1 p{
+    max-width: 80%;
+}
+
+.sobre-col1 img{
+    width: 500px;
+    margin-top: 40px;
+}
+
+.sobre-col2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 30%;
+}
+
+.sobre-col2 ul{
+    background-color: rgba(69, 182, 156, 0.104);
+    width: 300px;
+    list-style: none;
+    text-align: start;
+    padding: 8px;
+}
+
+ul p{
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+.sobre-col2 h3{
+    font-size: 25px;
+    color: #6E9887;
+}
+
+.sobre-col2 h4{
+    margin-top: 30px;
+    width: 200px;
+    color: #6E9887;
+}
+
+.sobre-col2 p{
+    max-width: 240px;
+    margin-top: 10px;
+}
+
+.sobre-col2 a{
+    text-decoration: none;
+    width: 200px;
+    text-align: center;
+    color: #FFF;
+    background-color: #d4a198;
+    padding: 8px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.descricao-botao{
+    font-size: 9px;
+    width: 200px;
+    text-align: center;
+}
+
+.container-aula{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    background-color: rgba(69, 182, 156, 0.034);
+}
+
+.text-aula{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-aula h2{
+    margin-top: 30px;
+    font-size: 35px;
+    color: #6E9887;
+}
+
+.text-aula ul{
+    margin-top: 50px;
+}
+
+.img-aula{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-aula img{
+    width: 500px;
+    border: 4px solid #FFF;
+}
+
+
+
+
+/* RESPONSIVE */
+
+
+@media(max-width: 800px){
+    .conteudo-inicial{
+        flex-direction: column-reverse;
+        height: 900px;
+    }
+
+    .conteudo-inicial img{
+        width: 300px;
+        height: 300px;
+        margin-top: 20px;
+    }
+
+    .img-inicial{
+        width: 100%;
+        height: 60%;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .texto-inicial{
+        width: 100%;
+        height: 40%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .texto-inicial h2{
+        font-size: 30px;
+        max-width: 90%;
+    }
+
+    .texto-inicial p{
+        font-size: 10px;
+    }
+
+    .container-sobre{
+        flex-direction: column;
+        height: 1400px;
+    }
+    
+    .container-sobre img{
+        width: 400px;
+    }
+
+    .sobre-col1{
+        width: 100%;
+    }
+
+    .sobre-col2{
+        width: 100%;
+        margin-top: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-aula{
+        flex-direction: column;
+        height: 600px;
+    }
+
+    .text-aula{
+        width: 100%;
+    }
+
+    .text-aula h2{
+        text-align: start;
+        margin-left: 5px;
+    }
+
+    .img-aula{
+        width: 100%;
+    }
+
+    .img-aula img{
+        width: 250px;
+        margin-top: 30px;
+    }
+
+
+    
+}
