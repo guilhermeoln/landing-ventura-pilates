@@ -59,6 +59,11 @@ form button{
     cursor: pointer;
 }
 
+form button:hover{
+    background-color: #d27160;
+    transition: 0.3s all;
+}
+
 .texto-contato p{
     display: flex;
     align-items: center;

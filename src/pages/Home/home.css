@@ -31,6 +31,11 @@
     margin-top: 20px;
 }
 
+.texto-inicial a:hover{
+    background-color: #d27160;
+    transition: 0.3s all;
+}
+
 .texto-inicial p{
     font-size: 15px;
     max-width: 500px;
@@ -133,6 +138,11 @@ ul p{
     padding: 8px;
     border-radius: 20px;
     margin-top: 20px;
+}
+
+.sobre-col2 a:hover{
+    background-color: #d27160;
+    transition: 0.3s all;
 }
 
 .descricao-botao{
